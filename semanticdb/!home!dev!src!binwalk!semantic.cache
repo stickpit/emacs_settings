@@ -1,0 +1,123 @@
+;; Object binwalk/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "binwalk/"
+  :tables
+  (list
+    (semanticdb-table "setup.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("os" include nil nil [23 32])
+            ("sys" include nil nil [33 43])
+            ("shutil" include nil nil [44 57])
+            ("tempfile" include nil nil [58 73])
+            ("subprocess" include nil nil [74 91])
+            ("distutils.core" include nil nil [92 133])
+            ("distutils.dir_util" include nil nil [134 176])
+            ("MODULE_NAME" variable nil nil [178 201])
+            ("SCRIPT_NAME" variable nil nil [202 227])
+            ("try" code nil nil [252 311])
+            ("which" function (:arguments 
+              ( ("command" variable nil (reparse-symbol function_parameters) [470 477]))              ) nil [460 981])
+            ("find_binwalk_module_paths" function nil nil [982 1200])
+            ("remove_binwalk_module" function (:arguments 
+              ( ("pydir" variable nil (reparse-symbol function_parameters) [1227 1232])
+                ("pybin" variable nil (reparse-symbol function_parameters) [1239 1244]))              ) nil [1201 1749])
+            ("IDAUnInstallCommand" type
+               (:superclasses ("Command")
+                :members 
+                  ( ("description" variable nil (reparse-symbol indented_block_body) [1790 1846])
+                    ("user_options" variable nil (reparse-symbol indented_block_body) [1851 1963])
+                    ("initialize_options" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1992 1996]))                          )
+                        (reparse-symbol indented_block_body) [1969 2112])
+                    ("finalize_options" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2138 2142]))                          )
+                        (reparse-symbol indented_block_body) [2117 2158])
+                    ("run" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2171 2175]))                          )
+                        (reparse-symbol indented_block_body) [2163 2798]))                  
+                :type "class")
+                nil [1750 2798])
+            ("IDAInstallCommand" type
+               (:superclasses ("Command")
+                :members 
+                  ( ("description" variable nil (reparse-symbol indented_block_body) [2837 2891])
+                    ("user_options" variable nil (reparse-symbol indented_block_body) [2896 3008])
+                    ("initialize_options" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3037 3041]))                          )
+                        (reparse-symbol indented_block_body) [3014 3157])
+                    ("finalize_options" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3183 3187]))                          )
+                        (reparse-symbol indented_block_body) [3162 3203])
+                    ("run" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3216 3220]))                          )
+                        (reparse-symbol indented_block_body) [3208 5008]))                  
+                :type "class")
+                nil [2799 5008])
+            ("UninstallCommand" type
+               (:superclasses ("Command")
+                :members 
+                  ( ("description" variable nil (reparse-symbol indented_block_body) [5046 5090])
+                    ("user_options" variable nil (reparse-symbol indented_block_body) [5095 5318])
+                    ("initialize_options" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5347 5351]))                          )
+                        (reparse-symbol indented_block_body) [5324 5406])
+                    ("finalize_options" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5432 5436]))                          )
+                        (reparse-symbol indented_block_body) [5411 5452])
+                    ("run" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5465 5469]))                          )
+                        (reparse-symbol indented_block_body) [5457 5526]))                  
+                :type "class")
+                nil [5009 5526])
+            ("CleanCommand" type
+               (:superclasses ("Command")
+                :members 
+                  ( ("description" variable nil (reparse-symbol indented_block_body) [5560 5606])
+                    ("user_options" variable nil (reparse-symbol indented_block_body) [5611 5628])
+                    ("initialize_options" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5657 5661]))                          )
+                        (reparse-symbol indented_block_body) [5634 5677])
+                    ("finalize_options" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5703 5707]))                          )
+                        (reparse-symbol indented_block_body) [5682 5723])
+                    ("run" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5736 5740]))                          )
+                        (reparse-symbol indented_block_body) [5728 6039]))                  
+                :type "class")
+                nil [5527 6039])
+            ("install_data_files" variable nil nil [6090 6113])
+            ("for" code nil nil [6114 6250])
+            ("setup" code nil nil [6299 6845]))          
+      :file "setup.py"
+      :pointmax 6847
+      :fsize 6846
+      :lastmodtime '(22651 6878 801092 354000)
+      :unmatched-syntax '((INDENT_BLOCK 6022 . 6039) (NEWLINE 6021 . 6022) (COLON 6020 . 6021) (EXCEPT 6004 . 6010) (INDENT_BLOCK 5976 . 5996) (NEWLINE 5975 . 5976) (COLON 5974 . 5975) (AS 5970 . 5972) (INDENT_BLOCK 5874 . 5891) (NEWLINE 5873 . 5874) (COLON 5872 . 5873) (EXCEPT 5856 . 5862) (INDENT_BLOCK 5828 . 5848) (NEWLINE 5827 . 5828) (COLON 5826 . 5827) (TRY 5751 . 5754) (AS 5822 . 5824) (INDENT_BLOCK 1732 . 1749) (NEWLINE 1731 . 1732) (COLON 1730 . 1731) (AS 1726 . 1728) (EXCEPT 1709 . 1715) (INDENT_BLOCK 1684 . 1701) (NEWLINE 1683 . 1684) (COLON 1682 . 1683) (TRY 1555 . 1558) (AS 1678 . 1680) (INDENT_BLOCK 1461 . 1478) (NEWLINE 1460 . 1461) (COLON 1459 . 1460) (TRY 1397 . 1400) (AS 1455 . 1457) (INDENT_BLOCK 1169 . 1182) (NEWLINE 1168 . 1169) (COLON 1167 . 1168) (EXCEPT 1151 . 1157) (INDENT_BLOCK 1131 . 1147) (NEWLINE 1130 . 1131) (COLON 1129 . 1130) (TRY 1035 . 1038) (AS 1125 . 1127) (INDENT_BLOCK 858 . 871) (NEWLINE 857 . 858) (COLON 856 . 857) (AS 852 . 854) (EXCEPT 835 . 841) (INDENT_BLOCK 815 . 831) (NEWLINE 814 . 815) (COLON 813 . 814) (TRY 657 . 660) (AS 809 . 811) (INDENT_BLOCK 1461 . 1478) (NEWLINE 1460 . 1461) (COLON 1459 . 1460) (TRY 1397 . 1400) (AS 1455 . 1457) (INDENT_BLOCK 1169 . 1182) (NEWLINE 1168 . 1169) (COLON 1167 . 1168) (EXCEPT 1151 . 1157) (INDENT_BLOCK 1131 . 1147) (NEWLINE 1130 . 1131) (COLON 1129 . 1130) (TRY 1035 . 1038) (AS 1125 . 1127) (INDENT_BLOCK 858 . 871) (NEWLINE 857 . 858) (COLON 856 . 857) (AS 852 . 854) (EXCEPT 835 . 841) (INDENT_BLOCK 815 . 831) (NEWLINE 814 . 815) (COLON 813 . 814) (TRY 657 . 660) (AS 809 . 811))))
+  :file "!home!dev!src!binwalk!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

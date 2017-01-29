@@ -1,0 +1,45 @@
+;; Object Downloads/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Downloads/"
+  :tables
+  (list
+    (semanticdb-table "cheer_msg.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("main" function (:type "int") nil [1 17]))          
+      :file "cheer_msg.c"
+      :pointmax 17
+      :fsize 16
+      :lastmodtime '(22603 42068 243472 781000)
+      :unmatched-syntax nil)
+
+    (semanticdb-table "sample3.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("httplib" include nil nil [19 33])
+            ("subprocess" include nil nil [34 51])
+            ("subprocess" code nil nil [53 83])
+            ("conn" variable nil nil [84 130])
+            ("conn" code nil nil [131 172])
+            ("res" variable nil nil [173 197])
+            ("print" code nil nil [198 231])
+            ("print" code nil nil [232 255])
+            ("conn" code nil nil [256 268])
+            ("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" code nil nil [269 332]))          
+      :file "sample3.py"
+      :pointmax 333
+      :fsize 332
+      :lastmodtime '(22605 24612 646474 597000)
+      :unmatched-syntax '((NAME 269 . 332) ($EOI 332 . 332)))
+    (semanticdb-table "uncomfortable.html"
+      :major-mode 'html-mode
+      :tags 
+        '( ("a" section nil nil [8 1133]))          
+      :file "uncomfortable.html"
+      :pointmax 1133
+      :fsize 1132
+      :lastmodtime '(22603 63308 632696 584000)
+      :unmatched-syntax nil))
+  :file "!home!dev!Downloads!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,26 @@
+;; Object Documents/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Documents/"
+  :tables
+  (list
+    (semanticdb-table "test.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("cv2" include nil nil [20 30])
+            ("cap" variable nil nil [31 89])
+            ("cap" code nil nil [90 127])
+            ("while" code nil nil [128 202])
+            ("qr_image" variable nil nil [202 252])
+            ("while" code nil nil [253 563])
+            ("cap" code nil nil [563 576])
+            ("cv2" code nil nil [577 612])
+            ("cv2" code nil nil [613 627])
+            ("cv2" code nil nil [628 651]))          
+      :file "test.py"
+      :pointmax 652
+      :fsize 651
+      :lastmodtime '(22603 30742 152715 747000)
+      :unmatched-syntax nil))
+  :file "!home!dev!Documents!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

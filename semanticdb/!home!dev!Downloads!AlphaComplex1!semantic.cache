@@ -1,0 +1,154 @@
+;; Object AlphaComplex1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "AlphaComplex1/"
+  :tables
+  (list
+    (semanticdb-table "Complex.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("CZ" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [46 56]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [28 32])
+                            ("N" variable nil (reparse-symbol function_parameters) [34 35]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [15 57])
+                    ("__call__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [75 79])
+                            ("x" variable nil (reparse-symbol function_parameters) [81 82])
+                            ("y" variable nil (reparse-symbol function_parameters) [84 85]))                          )
+                        (reparse-symbol indented_block_body) [62 122]))                  
+                :type "class")
+                nil [1 122])
+            ("CZimpl" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("N" variable nil (reparse-symbol indented_block_body) [182 193])
+                            ("self" variable nil (reparse-symbol indented_block_body) [202 216])
+                            ("self" code nil (reparse-symbol indented_block_body) [225 239])
+                            ("self" code nil (reparse-symbol indented_block_body) [248 262]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [154 158])
+                            ("x" variable nil (reparse-symbol function_parameters) [160 161])
+                            ("y" variable nil (reparse-symbol function_parameters) [163 164])
+                            ("klass" variable nil (reparse-symbol function_parameters) [166 171]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [141 263])
+                    ("__neg__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [280 284]))                          )
+                        (reparse-symbol indented_block_body) [268 327])
+                    ("__add__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [346 350])
+                            ("other" variable nil (reparse-symbol function_parameters) [352 357]))                          )
+                        (reparse-symbol indented_block_body) [334 440])
+                    ("__sub__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [457 461])
+                            ("other" variable nil (reparse-symbol function_parameters) [463 468]))                          )
+                        (reparse-symbol indented_block_body) [445 551])
+                    ("__mul__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [568 572])
+                            ("other" variable nil (reparse-symbol function_parameters) [574 579]))                          )
+                        (reparse-symbol indented_block_body) [556 818])
+                    ("__pow__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [835 839])
+                            ("k" variable nil (reparse-symbol function_parameters) [841 842]))                          )
+                        (reparse-symbol indented_block_body) [823 1014])
+                    ("__repr__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1032 1036]))                          )
+                        (reparse-symbol indented_block_body) [1019 1084]))                  
+                :type "class")
+                nil [123 1084]))          
+      :file "Complex.py"
+      :pointmax 1084
+      :fsize 1083
+      :lastmodtime '(22582 45472 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "server.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("warnings" include nil nil [1 16])
+            ("with" code nil nil [17 127])
+            ("Complex" include nil nil [127 149])
+            ("base64" include nil nil [150 163])
+            ("hashlib" include nil nil [164 178])
+            ("sys" include nil nil [179 189])
+            ("os" include nil nil [190 199])
+            ("genkey" function (:arguments 
+              ( ("k" variable nil (reparse-symbol function_parameters) [212 213]))              ) nil [201 493])
+            ("PoW" function nil nil [494 828])
+            ("PoW" code nil nil [830 835])
+            ("" code nil nil [837 860])
+            ("" code nil nil [861 872])
+            ("" code nil nil [873 887])
+            ("print" code nil nil [890 906])
+            ("print" code nil nil [907 923])
+            ("sys" code nil nil [924 942])
+            ("with" code nil nil [944 1095])
+            ("C" variable nil nil [1096 1105])
+            ("y" variable nil nil [1106 1140])
+            ("print" code nil nil [1141 1159]))          
+      :file "server.py"
+      :pointmax 1160
+      :fsize 1159
+      :lastmodtime '(22597 35230 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "solver.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("urllib.request" include nil nil [20 41])
+            ("base64" include nil nil [42 55])
+            ("random" include nil nil [56 69])
+            ("hashlib" include nil nil [70 84])
+            ("host" variable nil nil [86 112])
+            ("port" variable nil nil [113 125])
+            ("connection" variable nil nil [126 179])
+            ("for" code nil nil [180 535]))          
+      :file "solver.py"
+      :pointmax 591
+      :fsize 590
+      :lastmodtime '(22603 53997 832387 321000)
+      :unmatched-syntax nil)
+    (semanticdb-table "helper.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("socket" include nil nil [20 33])
+            ("base64" include nil nil [34 47])
+            ("random" include nil nil [48 61])
+            ("hashlib" include nil nil [62 76])
+            ("prefix" variable nil nil [77 117])
+            ("print" code nil nil [118 194])
+            ("print" code nil nil [195 222])
+            ("sys" code nil nil [223 241])
+            ("x" variable nil nil [242 277])
+            ("if" code nil nil [278 368])
+            ("ans" variable nil nil [368 376])
+            ("alpha" variable nil nil [377 413])
+            ("for" code nil nil [414 624]))          
+      :file "helper.py"
+      :pointmax 624
+      :fsize 505
+      :lastmodtime '(22603 52494 849531 938000)
+      :unmatched-syntax nil))
+  :file "!home!dev!Downloads!AlphaComplex1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

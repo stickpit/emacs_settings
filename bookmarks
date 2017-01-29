@@ -1,0 +1,46 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("semantic-manual"
+ (front-context-string . "\nSemantic Manual")
+ (rear-context-string . "ion,  Up: (dir)\n")
+ (position . 996)
+ (filename . "/usr/share/info/emacs-24/semantic")
+ (info-node . "Top")
+ (handler . Info-bookmark-jump))
+("seccon2016.org"
+ (filename . "~/Documents/seccon2016.org")
+ (front-context-string)
+ (rear-context-string)
+ (position . 1))
+("gtd"
+ (filename . "~/Documents/gtd.org")
+ (front-context-string . "* Inbox\n* Task\n*")
+ (rear-context-string)
+ (position . 1))
+("init.el"
+ (filename . "~/.emacs.d/init.el")
+ (front-context-string . "(global-set-key ")
+ (rear-context-string)
+ (position . 1))
+("org-capture-last-stored"
+ (filename . "~/Desktop/gtd.org")
+ (front-context-string . "note\n* Task\n** T")
+ (rear-context-string)
+ (position . 9))
+("tmp"
+ (front-context-string . "\n   • a _timelin")
+ (rear-context-string . "iated with them,")
+ (position . 305987)
+ (filename . "/usr/share/info/emacs-24/org")
+ (info-node . "Agenda Views")
+ (handler . Info-bookmark-jump))
+("org-manual"
+ (front-context-string . "\nOrg Mode Manual")
+ (rear-context-string . "ir),  Up: (dir)\n")
+ (position . 953)
+ (filename . "/usr/share/info/emacs-24/org")
+ (info-node . "Top")
+ (handler . Info-bookmark-jump))
+)

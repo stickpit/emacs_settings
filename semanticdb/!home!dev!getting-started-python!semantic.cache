@@ -1,0 +1,48 @@
+;; Object getting-started-python/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "getting-started-python/"
+  :tables
+  (list
+    (semanticdb-table "app.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("os" include nil nil [1 10])
+            ("flask" include nil nil [11 34])
+            ("flask" include nil nil [35 61])
+            ("flask" include nil nil [62 84])
+            ("app" variable nil nil [86 107])
+            ("" code nil nil [119 124])
+            ("index" function nil nil [125 163])
+            ("" code nil nil [174 190])
+            ("cities" function nil nil [191 373])
+            ("if" code nil nil [374 497]))          
+      :file "app.py"
+      :pointmax 497
+      :fsize 496
+      :lastmodtime '(22638 23210 625994 79000)
+      :unmatched-syntax nil)
+    (semanticdb-table "app_test.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("app" include nil nil [1 20])
+            ("unittest" include nil nil [22 37])
+            ("json" include nil nil [38 49])
+            ("CitiesTestCase" type
+               (:superclasses ("unittest.TestCase")
+                :members 
+                  ( ("test_index" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [110 114]))                          )
+                        (reparse-symbol indented_block_body) [95 386]))                  
+                :type "class")
+                nil [51 386])
+            ("if" code nil nil [387 434]))          
+      :file "app_test.py"
+      :pointmax 434
+      :fsize 433
+      :lastmodtime '(22638 23224 194875 213000)
+      :unmatched-syntax nil))
+  :file "!home!dev!getting-started-python!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

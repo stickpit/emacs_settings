@@ -1,0 +1,65 @@
+;; Object modules/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "modules/"
+  :tables
+  (list
+    (semanticdb-table "__init__.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("try" code nil nil [70 150])
+            ("try" code nil nil [221 314])
+            ("binwalk.modules.signature" include nil nil [315 362])
+            ("binwalk.modules.hexdiff" include nil nil [363 406])
+            ("binwalk.modules.general" include nil nil [407 450])
+            ("binwalk.modules.extractor" include nil nil [451 498])
+            ("binwalk.modules.entropy" include nil nil [499 542]))          
+      :file "__init__.py"
+      :pointmax 731
+      :fsize 730
+      :lastmodtime '(22651 6878 801092 354000)
+      :unmatched-syntax nil)
+    (semanticdb-table "signature.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("binwalk.core.magic" include nil nil [86 111])
+            ("binwalk.core.module" include nil nil [112 165])
+            ("Signature" type
+               (:superclasses ("Module")
+                :members 
+                  ( ("TITLE" variable nil (reparse-symbol indented_block_body) [197 221])
+                    ("ORDER" variable nil (reparse-symbol indented_block_body) [226 236])
+                    ("CLI" variable nil (reparse-symbol indented_block_body) [242 2136])
+                    ("KWARGS" variable nil (reparse-symbol indented_block_body) [2142 2652])
+                    ("VERBOSE_FORMAT" variable nil (reparse-symbol indented_block_body) [2658 2685])
+                    ("init" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2700 2704]))                          )
+                        (reparse-symbol indented_block_body) [2691 4254])
+                    ("validate" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4272 4276])
+                            ("r" variable nil (reparse-symbol function_parameters) [4278 4279]))                          )
+                        (reparse-symbol indented_block_body) [4259 4999])
+                    ("scan_file" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5018 5022])
+                            ("fp" variable nil (reparse-symbol function_parameters) [5024 5026]))                          )
+                        (reparse-symbol indented_block_body) [5004 7235])
+                    ("run" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7248 7252]))                          )
+                        (reparse-symbol indented_block_body) [7240 7384]))                  
+                :type "class")
+                nil [167 7384]))          
+      :file "signature.py"
+      :pointmax 7385
+      :fsize 7384
+      :lastmodtime '(22651 6878 801092 354000)
+      :unmatched-syntax nil))
+  :file "!home!dev!src!binwalk!src!binwalk!modules!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: begin_src_python
+# key: begin_src_python
+# --
+#+BEGIN_SRC python :exports results :results output
+
+#+END_SRC
+
